@@ -59,4 +59,4 @@ const produto ={
     preco: 5520.06
 }
 const {nome,preco} = produto;
-console.log(`${nome} custa ${preco}`);
+console.log(`${nome} custa ${preco}`);  
