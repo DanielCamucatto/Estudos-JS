@@ -1,1 +1,1 @@
-qtd_alunos
+object.freeze(curso);
