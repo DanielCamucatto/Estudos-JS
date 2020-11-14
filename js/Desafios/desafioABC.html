@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio A B C </title>
+</head>
+<body>
+    <h1>Desafio A B C</h1>
+    <p>Escreva tres variaveis A, B, e C com os atributos: 
+        10, 20 e null, imprima os valores na tela e depois inverta dinamicamente os valores de A e B.
+    </p>
+    <script>
+        let a = 10; 
+        let b = 20; 
+        let c = null
+        document.write(`A: ${a},
+                        B: ${b},
+                        C: ${c}
+        `);
+        
+    // Logica de inversão de valores 
+        c = a; 
+        console.log(c); 
+        a = b; 
+        console.log(a)
+        b = c; 
+        console.log(b) 
+        c = null;
+           
+    </script>
+    <h2>Valores alterados </h2>
+    <script>
+        document.write(`
+            A: ${a},
+            B: ${b},
+            C: ${c}
+
+        `)
+    </script>
+</body>
+</html>
