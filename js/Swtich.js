@@ -33,6 +33,6 @@ switch(paramentro){
     case 2: 
         console.log('paramentro 2'); 
     break; 
-    default: 
+    default: // default é opcional 
         console.log('Default');
 }
