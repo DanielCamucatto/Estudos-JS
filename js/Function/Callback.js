@@ -61,3 +61,4 @@ console.log(menores);
 menores = precos.filter(precos => precos < 50)
 
 console.log(menores);
+

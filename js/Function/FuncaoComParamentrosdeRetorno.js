@@ -4,6 +4,8 @@ FUNCOES COM PARAMENTROS DE RETORNO
 
 */
 
+const { functionExpression } = require("jscodeshift");
+
 function calcular_idade(ano_nascimento){
     const data = new Date(); // gera data atual
     const idade = data.getFullYear() - ano_nascimento;
@@ -19,3 +21,11 @@ function calcular_idade2(ano_nascimento){
 }
 
 calcular_idade2(1985);
+
+function calAreaTerreno(largura, comprimento){
+    //logica
+    const area = largura * comprimento;
+    // saida
+    return area; 
+}
+calAreaTerreno(15,25);
